@@ -1,0 +1,52 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment folders
+.env/
+.venv/
+venv/
+ENV/
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Vector stores and embeddings
+faiss_index/
+Faiss_index/
+index/
+storage/
+data/
+vector_store/
+
+# VS Code settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model/data/artifact files
+*.bin
+*.pt
+*.h5
+*.db
+*.gguf
+*.json
+*.log
+*.tmp
+.cache/
+
+# Audio files (if any speech/voice models)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# System files
+.DS_Store
+Thumbs.db
